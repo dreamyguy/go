@@ -1,0 +1,190 @@
+/* --------------------------------------------
+::::::: resets and fixes ::::::::::::::::::::::
+----------------------------------------------- */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+audio:not([controls]) {
+  display: none;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:hover,
+a:active {
+  outline: 0;
+}
+
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  height: auto;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: inherit;
+}
+
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+caption, th {
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+q:before, q:after {
+  content: '';
+}
+
+abbr, acronym {
+  border: 0;
+}
+
+/* http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+  /* added by us: */
+  clear: both;
+  display: block;
+  overflow: visible;
+}
+
+/* --------------------------------------------
+::::::: main styles :::::::::::::::::::::::::::
+----------------------------------------------- */
+/* --------------------------------------------
+::::::: responsive style ::::::::::::::::::::::
+----------------------------------------------- */
+/* UP TO LANDSCAPE PHONE
+   --------------------- */
+/* LANDSCAPE PHONE TO SMALL DESKTOP & PORTRAIT TABLET
+   -------------------------------------------------- */
+/* PORTRAIT TABLET TO DEFAULT DESKTOP
+   ---------------------------------- */
+/* LANDSCAPE TABLET
+   ---------------- */
+/* PORTRAIT TABLET TO LANDSCAPE TABLET
+   ---------------------------------- */
+/* TABLETS AND BELOW
+   ----------------- */
+/* DEFAULT DESKTOP
+   --------------- */
+/* LARGE DESKTOP & UP
+   ------------------ */
