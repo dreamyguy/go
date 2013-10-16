@@ -6,7 +6,8 @@ var files = {
             'app/js/jquery-1.10.2.min.js',
             'app/js/angular.min.js',
             'app/js/angular-resource.min.js',
-            'app/js/modernizr.custom.49435.js'
+            'app/js/modernizr.custom.49435.js',
+            'app/js/modernizr.ios.js'
         ]
     },
     bottom: {
